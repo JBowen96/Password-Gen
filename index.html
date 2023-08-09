@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
 
     <title>Generate a Password!</title>
   </head>
@@ -14,9 +15,9 @@
         <input type="tex" name="" placeholder="Password" id="password" readonly>
    
         <table>
-            <th><div id="button"
-            class="btn1" onclick="genPass()">Generate</div></th>
-            <th><div id="button"
+            <th><div id="button1"
+            class="btn1" >Generate</div></th>
+            <th><div id="button2"
             class="btn2" onclick="window.open('https://www.google.com/search?q=ice+cream+near+me&rlz=1C1CHBD_enUS921US921&oq=ice+cream+near+me&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABhDGIoFMgkIAhAAGEMYigUyCggDEAAYkgMYgAQyCggEEAAYkgMYgAQyCggFEAAYsQMYgAQyDQgGEC4YgwEYsQMYgAQyCggHEAAYsQMYgAQyBwgIEC4YgAQyCggJEAAYsQMYgATSAQ41NzM3MzcxMThqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8' , '_blank'); return false;">Surprise?</div></th>
         </table>
         
@@ -28,7 +29,15 @@
 
 
 
-
-
+    
   </body>
 </html>
+
+
+<!-- following parameters must be found:
+when click to generate > presented with series of promopts
+length of pass > 8 to 128
+char types > choose lower and uppercase, numeric, specials
+answer needs to be validated to confirm 1 thing min is selected
+once all prompts are answered > a pass is generated
+this password must be alerted or written to the page. -->
